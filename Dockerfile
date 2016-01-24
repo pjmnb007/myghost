@@ -1,4 +1,7 @@
-FROM ghost:0.7.1
+FROM ubuntu
+
+RUN apt-get -y  update
+RUN apt-get -y install node-gyp nodejs npm node
 
 ADD adapter.sh /opt/adapter.sh
 ADD config_mysql.js /opt/config_mysql.js
