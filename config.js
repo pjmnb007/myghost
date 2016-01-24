@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://careytoboo-bigming.daoapp.io/',
+        url: 'http://careytoboo-dagming.daoapp.io/',
         mail: {},
         database: {
             client: 'sqlite3',
