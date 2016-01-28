@@ -40,20 +40,20 @@ config = {
         },
 
         //Storage.Now,we can support `qiniu`,`upyun`, `aliyun oss`, `aliyun ace-storage` and `local-file-store`
-        storage: {
+        /*storage: {
             provider: 'local-file-store'
-        }
+        }*/
 
         // or
         // 参考文档： http://www.ghostchina.com/qiniu-cdn-for-ghost/
-        /*storage: {
+        storage: {
             provider: 'qiniu',
-            bucketname: 'your-bucket-name',
-            ACCESS_KEY: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-            SECRET_KEY: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            bucketname: 'careytoboo',
+            ACCESS_KEY: 'H31jjOOZHHEpGqMq0F8grtXj6lu5oklmcsTwGR28',
+            SECRET_KEY: '5NmhmwLAW6Lo3v3T6eXztJMGr8ouXMkgSSIVMfwA',
             root: '/image/',
-            prefix: 'http://your-bucket-name.qiniudn.com'
-        }*/
+            prefix: 'http://7xqkjn.com1.z0.glb.clouddn.com'
+        }
 
         // or
         // 参考文档： http://www.ghostchina.com/upyun-cdn-for-ghost/
