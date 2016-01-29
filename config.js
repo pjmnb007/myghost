@@ -26,10 +26,10 @@ config = {
             client: 'MySQL',
             connection: {
                 host     : '10.10.26.58',
-				port: '3306',
+		port: '3306',
                 user     : 'uA4Ea8xzcLNjHJRh',
                 password : 'pLe8uShzrjH4xfn5w',
-                database : 'MySQL',
+                database : 'test',
                 charset  : 'utf8'
             },
             debug: false
