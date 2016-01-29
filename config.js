@@ -23,13 +23,13 @@ config = {
 
         // 配置MySQL 数据库
         database: {
-            client: 'mysql',
+            client: 'MySQL',
             connection: {
                 host     : '10.10.26.58',
 		port: '3306',
-                user     : 'uA4Ea8xzcLNjHJRh',
-                password : 'pLe8uShzrjH4xfn5w',
-                database : 'test',
+                user     : 'uueNvFkz0nKId923',
+                password : 'pOujVeKhydPrpZsl5',
+                database : 'information_schema',
                 charset  : 'utf8'
             },
             debug: false
