@@ -11,28 +11,29 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://bigming.daoapp.io/',
         mail: {},
-        database: {
+        /*database: {
             client: 'sqlite3',
             connection: {
                 filename: path.join(__dirname, '/content/data/ghost.db')
             },
             debug: false
-        },
+        },*/
 
         // 配置MySQL 数据库
-        /*database: {
-            client: 'mysql',
+        database: {
+            client: 'MySQL',
             connection: {
-                host     : 'host',
-                user     : 'user',
-                password : 'password',
-                database : 'database',
+                host     : '10.10.26.58',
+		port: '3306',
+                user     : 'uA4Ea8xzcLNjHJRh',
+                password : 'pLe8uShzrjH4xfn5w',
+                database : 'test',
                 charset  : 'utf8'
             },
             debug: false
-        },*/
+        },
 
         server: {
             host: '127.0.0.1',
@@ -52,7 +53,7 @@ config = {
             ACCESS_KEY: 'H31jjOOZHHEpGqMq0F8grtXj6lu5oklmcsTwGR28',
             SECRET_KEY: '5NmhmwLAW6Lo3v3T6eXztJMGr8ouXMkgSSIVMfwA',
             root: '/image/',
-            prefix: 'http://7xqkjn.com1.z0.glb.clouddn.com'
+            prefix: '7xqkjn.com1.z0.glb.clouddn.com'
         }
 
         // or
@@ -186,5 +187,3 @@ config = {
         logging: false
     }
 };
-
-module.exports = config;
