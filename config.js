@@ -27,8 +27,8 @@ config = {
             connection: {
                 host     : '10.10.26.58',
 		port: '3306',
-                user     : 'uueNvFkz0nKId923',
-                password : 'pOujVeKhydPrpZsl5',
+                user     : 'uueNvFkz0nKld923',
+                password : 'pOujVeKhydPrpZsI5',
                 database : 'information_schema',
                 charset  : 'utf8'
             },
