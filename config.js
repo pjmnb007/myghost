@@ -23,7 +23,7 @@ config = {
 
         // 配置MySQL 数据库
         database: {
-            client: 'MySQL',
+            client: 'mysql',
             connection: {
                 host     : '10.10.26.58',
 		port: '3306',
